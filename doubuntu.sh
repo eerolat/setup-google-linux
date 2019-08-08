@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Tuomas Eerola - 2019
+
 echo '==== This script will enable Graphical User Interface on your Ubuntu Server ===='
 echo '==== and creates a user account that you can use with Remote Desktop Connections ===='
 echo '==== Username: ' $1
