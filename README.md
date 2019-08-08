@@ -21,7 +21,17 @@ You can run this script
 
 *Expand "Management, security, disks, networking, sole tenancy"
 
-*On "Startup script" field, type:
+*On "Startup script" field, type (replace "myusername" and "mypassword" with your preferred user credentials)
+
+i. For Debian
+
+   wget https://github.com/eerolat/setup-google-linux/raw/master/install.sh
+   sh install.sh -d myusername mypassword
+
+ii. For Ubuntu
+
+   wget https://github.com/eerolat/setup-google-linux/raw/master/install.sh
+   sh install.sh -u myusername mypassword
 
 *Click "Create" button.
 
@@ -39,7 +49,17 @@ You can run this script
 
 *Click the "SSH" button next to your VM instance to open a SSH Console Window. 
 
-*In the console window, type:
+*In the console window, type (replace "myusername" and "mypassword" with your preferred user credentials)
+
+i. On Debian
+
+   wget https://github.com/eerolat/setup-google-linux/raw/master/install.sh
+   sh install.sh -d myusername mypassword
+
+ii. On Ubuntu
+
+   wget https://github.com/eerolat/setup-google-linux/raw/master/install.sh
+   sh install.sh -u myusername mypassword
 
 *Wait for the script to finish.
 
