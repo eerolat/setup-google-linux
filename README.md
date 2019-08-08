@@ -24,15 +24,15 @@ You can run this script
 *On "Startup script" field, type (replace "myusername" and "mypassword" with your preferred user credentials)
 
 i. For Debian
-
+```
    wget https://github.com/eerolat/setup-google-linux/raw/master/install.sh
    sh install.sh -d myusername mypassword
-
+```
 ii. For Ubuntu
-
+```
    wget https://github.com/eerolat/setup-google-linux/raw/master/install.sh
    sh install.sh -u myusername mypassword
-
+```
 *Click "Create" button.
 
 *Wait for your Linux VM to start.
@@ -52,15 +52,15 @@ ii. For Ubuntu
 *In the console window, type (replace "myusername" and "mypassword" with your preferred user credentials)
 
 i. On Debian
-
+```
    wget https://github.com/eerolat/setup-google-linux/raw/master/install.sh
    sh install.sh -d myusername mypassword
-
+```
 ii. On Ubuntu
-
+```
    wget https://github.com/eerolat/setup-google-linux/raw/master/install.sh
    sh install.sh -u myusername mypassword
-
+```
 *Wait for the script to finish.
 
 *Open a Remote Desktop Connection to your new Linux VM. The IP address of your VM instance is shown in the "VM Instances" view. Log in using your GUI username and password.
