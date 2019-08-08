@@ -31,12 +31,12 @@ echo ''
 
 if [ $linux = "-u" ] ; then
   echo 'Now configuring your Ubuntu.'
-
-  sh installubuntugui.sh $username $password
+  wget https://github.com/eerolat/setup-google-linux/raw/master/doubuntu.sh
+  sh doubuntu.sh $username $password
 elif [ $linux = "-d" ] ; then
   echo 'Now configuring your Debian.'
-  sh installdebiangui.sh $username $password
+  wget https://github.com/eerolat/setup-google-linux/raw/master/dodebian.sh
+  sh dodebian.sh $username $password
 else
   echo 'Error. Can not start configuring your Linux.'
 fi
-
