@@ -9,6 +9,8 @@ You can run this script
 1. As a Startup Script in Google Compute Engine when launching a new Linux VM; or
 2. In the SSH console window in Google Compute Engine. 
 
+Note: Your new user will be automatically added to the Group "sudoers". If you don't want to allow the user to run programs with security privileges, please comment out the line in the script.
+
 ## Option 1 - Run as a Startup Script
 
 *Go to your Google Cloud Console. https://console.cloud.google.com
